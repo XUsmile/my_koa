@@ -5,6 +5,7 @@ const app = new Koa()
 const router = require('koa-router')()
 const serve = require('koa-static')
 const views = require('koa-views')
+const bodyparser = require('koa-bodyparser')
 
 /* 静态资源引用 */
 const main = serve(path.join(__dirname))
@@ -38,6 +39,9 @@ app
   .use(router.allowedMethods())
   .use(error500)
   .use(error404)
+
+// 配置ctx.body解析中间件
+app.use(bodyparser())
 
 // 服务监控
 app.listen(3000, () => {
