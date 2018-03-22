@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mojie178/my_koa/issues"
   },
-  "homepage": "https://github.com/mojie178/my_koa#readme"
+  "homepage": "https://github.com/mojie178/my_koa#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "koa-views": "^6.1.4"
+  }
 }
