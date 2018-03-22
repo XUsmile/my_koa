@@ -1,0 +1,19 @@
+{
+  "name": "my_koa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojie178/my_koa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mojie178/my_koa/issues"
+  },
+  "homepage": "https://github.com/mojie178/my_koa#readme"
+}
